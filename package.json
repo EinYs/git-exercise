@@ -1,6 +1,6 @@
 {
-  "name": "git-exercise",
-  "version": "1.0.0",
+  "name": "@einys/git-exercise",
+  "version": "1.1.0",
   "description": "",
   "main": "app.js",
   "scripts": {
@@ -8,6 +8,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EinYs/git-exercise"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "lodash": "^4.17.11"
